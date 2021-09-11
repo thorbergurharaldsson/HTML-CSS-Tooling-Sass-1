@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/ad55ceb5b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>HTML & CSS - Introduction - Styled with scss</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <a href="top"></a>
+    <!--HTML header area starts here-->
+    <header>
+      <nav class="bg-white">
+        <a href="#top">
+          <img src="img/logo.png" alt="websiteLogo" />
+        </a>
+        <a href="#about" class="text-primary text-hover-green">About me</a>
+        <a href="#projects" class="text-primary text-hover-green">Projects</a>
+        <a href="#contact" class="text-primary text-hover-green">Contact me</a>
+      </nav>
+    </header>
+    <!--HTML header area ends here-->
+
+    <!--HTML main area starts here-->
+    <main class="bg-gray-light-8">
+      <!--About me section starts here-->
+      <section id="about">
+        <h1>About me</h1>
+        <p>
+          My name is Þorbergur Haraldsson, I have worked as a system
+          administrator in the Wesfjords since 2015, <br />
+          I service most of the companies in the Westfjords both as a system
+          administrator and it support for the staff.
+        </p>
+        <ul>
+          <li>Þorbergur Haraldsson</li>
+          <li>25.08.1997</li>
+          <li>Interests</li>
+          <ul>
+            <li>Cycling</li>
+            <li>Coding</li>
+            <li>Brewing</li>
+          </ul>
+        </ul>
+      </section>
+      <!--About me section ends here-->
+
+      <!--Project section starts here-->
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="grid-container">
+          <div class="grid-item bg-white">
+            <a href="https://litlabyli.is"
+              ><img
+                src="https://litlabyli.is/wp-content/uploads/2021/05/Logo2-04.svg"
+                alt="litlabyli.is"
+                width="200px"
+            /></a>
+            <p>
+              I worked with Kristín to set up litlabyli.is, she offers
+              accomidation in Önundarfjörður as well as some adventures and an
+              online shop for here famous marriage bliss pie (hjónabandssælu)
+            </p>
+          </div>
+          <div class="grid-item bg-white">
+            <a href="http://lydflat.is"
+              ><img
+                src="https://lydflat.is/wp-content/uploads/2019/09/Lydskolinn_a_Flateyri-01-002-e1587676162597.png"
+                alt="lydflat.is"
+                width="200px"
+            /></a>
+            <p>
+              I helped Lýðskólinn with there initial developement and design for
+              the website, since then I have serviced the website quite a lot.
+            </p>
+          </div>
+          <div class="grid-item bg-white">
+            <a href="https://haraldssonprod.is"
+              ><img
+                src="https://haraldssonprod.is/img/HeaderLogo.svg"
+                alt="haraldssonprod.is"
+                width="200px"
+            /></a>
+            <p>
+              In 2018 me and my brother started doing some freelance work, me
+              doing some web developement and him doing some design. In november
+              2020 we started our company Haraldsson Prod. ehf.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Project section ends here-->
+
+      <!--Contact section starts here-->
+      <section id="contact">
+        <h1>Contact me</h1>
+        <div class="contactIcons">
+          <a
+            href="mailto:thorbergur@haraldssonprod.is"
+            class="contactIcon bg-gray"
+            ><i class="fas fa-at"></i
+          ></a>
+          <a href="tel:+3547736688" class="contactIcon bg-gray"
+            ><i class="fas fa-phone"></i
+          ></a>
+        </div>
+        <div class="contactIcons">
+          <a
+            class="contactIcon bg-gray"
+            href="https://www.linkedin.com/in/thorbergurha/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="contactIcon bg-gray" href="https://twitter.com/tobbergur"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="contactIcon bg-gray"
+            href="https://www.facebook.com/Tobbergur/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="contactIcon bg-gray"
+            href="https://github.com/thorbergurharaldsson"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </section>
+      <!--Contact section ends here-->
+    </main>
+    <!--HTML main area ends here-->
+
+    <!--HTML footer area starts here-->
+    <footer class="text-info">
+      Þorbergur Haraldsson - HTML & CSS - Introduction - styled with scss
+    </footer>
+    <!--HTML footer area ends here-->
+  </body>
+</html>

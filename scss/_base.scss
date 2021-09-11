@@ -1,0 +1,87 @@
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Tahoma;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+ul {
+  padding: $base-padding;
+  list-style-type: none;
+  font-size: $base-font-size;
+  li {
+    &::before {
+      content: "\f054"; /* FontAwesome Unicode */
+      font-family: FontAwesome;
+      display: inline-block;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: $font-size-xxl;
+  text-align: center;
+}
+
+p {
+  font-size: $base-font-size;
+}
+
+section {
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10rem;
+  grid-template-columns: auto auto auto;
+  padding: $base-padding;
+}
+
+.grid-item {
+  padding: $base-padding;
+  font-size: $base-font-size;
+  text-align: center;
+  max-width: 15em;
+}
+
+footer {
+  padding: $base-padding;
+  text-align: center;
+}
+
+.contactIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #fff;
+  border-radius: 100%;
+  font-size: $font-size-lg;
+  margin: $base-margin;
+}
