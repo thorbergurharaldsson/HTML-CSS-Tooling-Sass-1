@@ -5,5 +5,7 @@ I followed [this tutorial](https://www.youtube.com/watch?v=_kqN4hl9bGc&list=PL4c
 After I did this tutorial I re-did [my first assignment](https://github.com/thorbergurharaldsson/html-css-introductory-courses/tree/main/html-css-introduction) using SCSS for styling.
 
 The redone assignment can be viewed here:
+
 [github repo](https://github.com/thorbergurharaldsson/HTML-CSS-Tooling-Sass-1)
+
 [live site](https://thorbergurharaldsson.github.io/HTML-CSS-Tooling-Sass-1/)
